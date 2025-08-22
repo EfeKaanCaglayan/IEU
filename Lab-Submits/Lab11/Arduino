@@ -1,0 +1,173 @@
+byte LED_PIN2 = 28;
+byte LED_PIN3 = 27;
+byte LED_PIN4 = 26;
+byte LED_PIN5 = 25;
+byte LED_PIN6 = 24;
+byte LED_PIN7 = 23;
+byte LED_PIN8 = 22;
+byte LED_PIN9 = 36;
+byte LED_PIN10 = 35;
+byte LED_PIN11 = 34;
+byte LED_PIN12 = 33;
+
+
+
+void setup() {
+  pinMode(LED_PIN2, OUTPUT);
+  pinMode(LED_PIN3, OUTPUT);
+  pinMode(LED_PIN4, OUTPUT);
+  pinMode(LED_PIN5, OUTPUT);
+  pinMode(LED_PIN6, OUTPUT);
+  pinMode(LED_PIN7, OUTPUT);
+  pinMode(LED_PIN8, OUTPUT);
+  pinMode(LED_PIN9, OUTPUT);
+  pinMode(LED_PIN10, OUTPUT);
+  pinMode(LED_PIN11, OUTPUT);
+  pinMode(LED_PIN12, OUTPUT);
+}
+
+
+void loop() {
+  zero();
+  delay(1000);
+  one();
+  delay(1000);
+  two();
+  delay(1000);
+  three();
+  delay(1000);
+  four();
+  delay(1000);
+  five();
+  delay(1000);
+  six();
+  delay(1000);
+  seven();
+  delay(1000);
+  eight();
+  delay(1000);
+  nine();
+  delay(1000);
+ 
+}
+
+void zero()
+{
+  digitalWrite(LED_PIN12, HIGH);
+  digitalWrite(LED_PIN2, LOW);
+  digitalWrite(LED_PIN3, HIGH);
+  digitalWrite(LED_PIN4, HIGH);
+  digitalWrite(LED_PIN5, HIGH);
+  digitalWrite(LED_PIN6, HIGH);
+  digitalWrite(LED_PIN7, HIGH);
+  digitalWrite(LED_PIN8, HIGH);
+}
+
+void one() {
+ digitalWrite(LED_PIN12,HIGH);
+ digitalWrite(LED_PIN8, LOW);
+ digitalWrite(LED_PIN5, LOW);
+ digitalWrite(LED_PIN4, LOW);
+ digitalWrite(LED_PIN3, LOW);
+ digitalWrite(LED_PIN2, LOW);
+ digitalWrite(LED_PIN6, HIGH);
+ digitalWrite(LED_PIN7, HIGH);
+}
+
+void two()
+{
+  digitalWrite(LED_PIN12, HIGH);
+  digitalWrite(LED_PIN2, HIGH);
+  digitalWrite(LED_PIN3, LOW);
+  digitalWrite(LED_PIN4, HIGH);
+  digitalWrite(LED_PIN5, HIGH);
+  digitalWrite(LED_PIN6, LOW);
+  digitalWrite(LED_PIN7, HIGH);
+  digitalWrite(LED_PIN8, HIGH);
+}
+
+void three()
+{
+  digitalWrite(LED_PIN12, HIGH);
+  digitalWrite(LED_PIN2, HIGH);
+  digitalWrite(LED_PIN3, LOW);
+  digitalWrite(LED_PIN4, LOW);
+  digitalWrite(LED_PIN5, HIGH);
+  digitalWrite(LED_PIN6, HIGH);
+  digitalWrite(LED_PIN7, HIGH);
+  digitalWrite(LED_PIN8, HIGH);
+}
+
+void four()
+{
+  digitalWrite(LED_PIN12, HIGH);
+  digitalWrite(LED_PIN2, HIGH);
+  digitalWrite(LED_PIN3, HIGH);
+  digitalWrite(LED_PIN4, LOW);
+  digitalWrite(LED_PIN5, LOW);
+  digitalWrite(LED_PIN6, HIGH);
+  digitalWrite(LED_PIN7, HIGH);
+  digitalWrite(LED_PIN8, LOW);
+}
+
+void five()
+{
+  digitalWrite(LED_PIN12, HIGH);
+  digitalWrite(LED_PIN2, HIGH);
+  digitalWrite(LED_PIN3, HIGH);
+  digitalWrite(LED_PIN4, LOW);
+  digitalWrite(LED_PIN5, HIGH);
+  digitalWrite(LED_PIN6, HIGH);
+  digitalWrite(LED_PIN7, LOW);
+  digitalWrite(LED_PIN8, HIGH);
+}
+
+void six()
+{
+  digitalWrite(LED_PIN12, HIGH);
+  digitalWrite(LED_PIN2, HIGH);
+  digitalWrite(LED_PIN3, HIGH);
+  digitalWrite(LED_PIN4, HIGH);
+  digitalWrite(LED_PIN5, HIGH);
+  digitalWrite(LED_PIN6, HIGH);
+  digitalWrite(LED_PIN7, LOW);
+  digitalWrite(LED_PIN8, HIGH);
+}
+
+void seven()
+{
+  digitalWrite(LED_PIN12, HIGH);
+  digitalWrite(LED_PIN2, LOW);
+  digitalWrite(LED_PIN3, LOW);
+  digitalWrite(LED_PIN4, LOW);
+  digitalWrite(LED_PIN5, LOW);
+  digitalWrite(LED_PIN6, HIGH);
+  digitalWrite(LED_PIN7, HIGH);
+  digitalWrite(LED_PIN8, HIGH);
+}
+
+void eight()
+{
+  digitalWrite(LED_PIN12, HIGH);
+  digitalWrite(LED_PIN2, HIGH);
+  digitalWrite(LED_PIN3, HIGH);
+  digitalWrite(LED_PIN4, HIGH);
+  digitalWrite(LED_PIN5, HIGH);
+  digitalWrite(LED_PIN6, HIGH);
+  digitalWrite(LED_PIN7, HIGH);
+  digitalWrite(LED_PIN8, HIGH);
+}
+
+void nine()
+{
+  digitalWrite(LED_PIN12, HIGH);
+  digitalWrite(LED_PIN2, HIGH);
+  digitalWrite(LED_PIN3, HIGH);
+  digitalWrite(LED_PIN4, LOW);
+  digitalWrite(LED_PIN5, HIGH);
+  digitalWrite(LED_PIN6, HIGH);
+  digitalWrite(LED_PIN7, HIGH);
+  digitalWrite(LED_PIN8, HIGH);
+}
+
+
