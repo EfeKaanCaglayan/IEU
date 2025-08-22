@@ -1,0 +1,68 @@
+/*
+#include <iostream>
+using namespace std;
+    
+int main(){
+    cout<<"What is your name"<<"\n";
+    string name;
+    cin>>name;
+    cout<<"Hello "<<name<<"\n";
+    
+    cout<<"What is your student ID? ";
+    int ID;
+    cin>>ID;
+    cout<<"Your Id is:"<<ID;
+
+} 
+#include <iostream>
+using namespace std;
+int main(){
+    int var1;
+    cin>>var1;
+
+int var2;
+cin>>var2;
+
+int sum=var1+var2;
+int diff=var1-var2;
+int prod=var1*var2;
+cout<< sum <<"\n";
+cout<< diff <<"\n";
+cout<< prod <<"\n";
+
+} 
+#include <iostream>
+using namespace std;
+    
+int main(){
+    cout<<"What is your Name?"<<"\n";
+    string name;
+    cin>> name;
+
+    cout<<"What is your Lab grade?"<<"\n";
+    int lab;
+    cin>> lab;
+    
+    cout<<"What is your Midterm?"<<"\n";
+    int midterm;
+    cin>> midterm;
+
+    cout<<"What is your final?"<<"\n";
+    int final;
+    cin>> final;
+    float lastScore=(lab/4)+(midterm/100*35)+(final/100*40);
+    cout<<"Name"<<name;
+    cout<<"Lab"<<lab<< "\n";
+    cout<<"final"<<final<< "\n";
+    cout<<"Midterm"<<midterm<< "\n";
+    cout<<"Last score"<<lastScore<< "\n";
+
+} 
+#include <iostream>
+using namespace std;
+    
+int main(){
+    cout<< "*"<<"\n"<< "**" << "\n" << "***" << "\n" << "**" << "\n" << "*";
+
+    return 0;
+} */

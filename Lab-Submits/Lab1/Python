@@ -1,0 +1,61 @@
+#print("What is your name")
+from tkinter.font import names
+from typing import final
+
+#x=input()
+
+#print("hello "+x)
+
+#print("What is your student ID")
+
+#y=input()
+
+#print("your ID is "+y)
+
+
+
+
+
+
+#print("Enter values for var1 and var2")
+#var1=input()
+#var2=input()
+
+#sum=int(var1)+int(var2)
+#diff=(int(var1)-int(var2))
+#production=int(var1)*int(var2)
+#print(var1)
+#print(var2)
+#print(sum)
+#print(diff)
+#print(production)
+
+
+
+
+
+
+#print("Enter your name")
+#name=input()
+#print("Enter your labgrade")
+#labgrade=input()
+#print("Enter your midterm grade")
+#midtermgrade=input()
+#print("Enter your final grade")
+#final=input()
+
+#lastScore=((int(labgrade)/4 )+(int(midtermgrade)/100*35)+(int(final)/100*40))
+#print("Name:"+name+'\n')
+#print("Lab:"+labgrade)
+#print(("Midterm:"+midtermgrade))
+#print(("Final:"+final))
+#print("Last Score:" +str(lastScore))
+
+#print(lastScore)
+
+#a="*"
+#b="**"
+#c="***"
+#d="**"
+#e="*"
+#print(" "+a,'\n',b,'\n',c,'\n',d,'\n',e)
